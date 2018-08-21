@@ -37,7 +37,7 @@
                     </tabBar>
                     <connections>
                         <segue destination="9IS-4a-l2u" kind="relationship" relationship="viewControllers" id="Ezf-Zb-4K9"/>
-                        <segue destination="YCb-1c-eJA" kind="relationship" relationship="viewControllers" id="WFO-wH-GIn"/>
+                        <segue destination="HmL-xe-ZNA" kind="relationship" relationship="viewControllers" id="wIW-FZ-3yi"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZMV-5c-emP" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -47,7 +47,7 @@
         <!--Menu-->
         <scene sceneID="2fK-4n-JaU">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="9IS-4a-l2u" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="9IS-4a-l2u" customClass="MonNav" customModule="MonRestoDuMonde" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Menu" id="cYz-Tr-W83"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="WBb-YT-g2e">
@@ -63,7 +63,7 @@
             </objects>
             <point key="canvasLocation" x="279" y="-450"/>
         </scene>
-        <!--Item-->
+        <!--La Carte Controller-->
         <scene sceneID="mMi-1r-aBT">
             <objects>
                 <tableViewController id="S0p-WE-1Md" customClass="ALaCarteController" customModule="MonRestoDuMonde" customModuleProvider="target" sceneMemberID="viewController">
@@ -86,28 +86,28 @@
                             <outlet property="delegate" destination="S0p-WE-1Md" id="mWX-PU-EC3"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Item" id="fEJ-XY-QVn"/>
+                    <navigationItem key="navigationItem" id="pBC-R4-GgN"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="F56-Ff-aSv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1113" y="242"/>
         </scene>
         <!--A la carte-->
-        <scene sceneID="nQD-jT-MMa">
+        <scene sceneID="icg-NX-XgT">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="YCb-1c-eJA" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="A la carte" id="ieE-0K-4wG"/>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="HmL-xe-ZNA" customClass="MonNav" customModule="MonRestoDuMonde" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="A la carte" id="fEJ-XY-QVn"/>
                     <toolbarItems/>
-                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ZBh-wD-RjZ">
-                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="tbu-lc-vUp">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                    </tabBar>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="S0p-WE-1Md" kind="relationship" relationship="viewControllers" id="S0j-QR-fm8"/>
+                        <segue destination="S0p-WE-1Md" kind="relationship" relationship="rootViewController" id="psw-gq-uc4"/>
                     </connections>
-                </tabBarController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="WXQ-tk-H01" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KvQ-ax-dMV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="278" y="242"/>
         </scene>

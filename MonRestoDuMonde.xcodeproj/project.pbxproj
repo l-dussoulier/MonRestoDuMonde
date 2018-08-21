@@ -15,6 +15,7 @@
 		BF21C9B42125DE2000ACF401 /* ALaCarteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF21C9B32125DE2000ACF401 /* ALaCarteController.swift */; };
 		BF21C9B62125E18600ACF401 /* MonTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF21C9B52125E18600ACF401 /* MonTabBar.swift */; };
 		BF21C9BD2125E32300ACF401 /* Constantes.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF21C9BC2125E32300ACF401 /* Constantes.swift */; };
+		BFE20DBA212C77CC0008E26D /* MonNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE20DB9212C77CC0008E26D /* MonNav.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		BF21C9B32125DE2000ACF401 /* ALaCarteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALaCarteController.swift; sourceTree = "<group>"; };
 		BF21C9B52125E18600ACF401 /* MonTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonTabBar.swift; sourceTree = "<group>"; };
 		BF21C9BC2125E32300ACF401 /* Constantes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constantes.swift; sourceTree = "<group>"; };
+		BFE20DB9212C77CC0008E26D /* MonNav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonNav.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 				BF21C9B12125DDB500ACF401 /* MenuController.swift */,
 				BF21C9B32125DE2000ACF401 /* ALaCarteController.swift */,
 				BF21C9B52125E18600ACF401 /* MonTabBar.swift */,
+				BFE20DB9212C77CC0008E26D /* MonNav.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 			files = (
 				BF21C9BD2125E32300ACF401 /* Constantes.swift in Sources */,
 				BF21C9B62125E18600ACF401 /* MonTabBar.swift in Sources */,
+				BFE20DBA212C77CC0008E26D /* MonNav.swift in Sources */,
 				BF21C9B22125DDB500ACF401 /* MenuController.swift in Sources */,
 				BF21C99D2125DAE400ACF401 /* AppDelegate.swift in Sources */,
 				BF21C9B42125DE2000ACF401 /* ALaCarteController.swift in Sources */,
