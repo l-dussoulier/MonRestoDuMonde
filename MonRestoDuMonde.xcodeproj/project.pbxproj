@@ -19,6 +19,8 @@
 		BFFD566521EA36740042904C /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFD566421EA36740042904C /* MenuCell.swift */; };
 		BFFD566721EA3D620042904C /* Plat.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFD566621EA3D620042904C /* Plat.swift */; };
 		BFFD566921EA3DEB0042904C /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFD566821EA3DEB0042904C /* Enums.swift */; };
+		BFFD566B21EA40470042904C /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFD566A21EA40470042904C /* Menu.swift */; };
+		BFFD566D21EA41C90042904C /* LesPLats.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFD566C21EA41C90042904C /* LesPLats.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		BFFD566421EA36740042904C /* MenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
 		BFFD566621EA3D620042904C /* Plat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plat.swift; sourceTree = "<group>"; };
 		BFFD566821EA3DEB0042904C /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		BFFD566A21EA40470042904C /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		BFFD566C21EA41C90042904C /* LesPLats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LesPLats.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +90,8 @@
 			children = (
 				BFFD566621EA3D620042904C /* Plat.swift */,
 				BFFD566821EA3DEB0042904C /* Enums.swift */,
+				BFFD566A21EA40470042904C /* Menu.swift */,
+				BFFD566C21EA41C90042904C /* LesPLats.swift */,
 			);
 			path = Modele;
 			sourceTree = "<group>";
@@ -189,10 +195,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFFD566D21EA41C90042904C /* LesPLats.swift in Sources */,
 				BFFD566521EA36740042904C /* MenuCell.swift in Sources */,
 				BF21C9BD2125E32300ACF401 /* Constantes.swift in Sources */,
 				BF21C9B62125E18600ACF401 /* MonTabBar.swift in Sources */,
 				BFE20DBA212C77CC0008E26D /* MonNav.swift in Sources */,
+				BFFD566B21EA40470042904C /* Menu.swift in Sources */,
 				BF21C9B22125DDB500ACF401 /* MenuController.swift in Sources */,
 				BF21C99D2125DAE400ACF401 /* AppDelegate.swift in Sources */,
 				BFFD566721EA3D620042904C /* Plat.swift in Sources */,
